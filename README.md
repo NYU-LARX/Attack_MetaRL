@@ -84,17 +84,16 @@ python train_persistent.py --config configs/maml/2d-navigation.yaml --output-fol
 
 ## References
 This project contains experiments implementation of
-> Chelsea Finn, Pieter Abbeel, and Sergey Levine. Model-Agnostic Meta-Learning for Fast Adaptation of Deep
-Networks. _International Conference on Machine Learning (ICML)_, 2017 [[ArXiv](https://arxiv.org/abs/1703.03400)]
+> Li, Tao, Haozhe Lei, and Quanyan Zhu. "Sampling Attacks on Meta Reinforcement Learning: A Minimax Formulation and Complexity Analysis." arXiv preprint arXiv:2208.00081 (2022).
+
 
 If you want to cite the paper
 ```
-@article{finn17maml,
-  author    = {Chelsea Finn and Pieter Abbeel and Sergey Levine},
-  title     = {{Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks}},
-  journal   = {International Conference on Machine Learning (ICML)},
-  year      = {2017},
-  url       = {http://arxiv.org/abs/1703.03400}
+@article{li2022sampling,
+  title={Sampling Attacks on Meta Reinforcement Learning: A Minimax Formulation and Complexity Analysis},
+  author={Li, Tao and Lei, Haozhe and Zhu, Quanyan},
+  journal={arXiv preprint arXiv:2208.00081},
+  year={2022}
 }
 ```
 
